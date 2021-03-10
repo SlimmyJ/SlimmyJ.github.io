@@ -21,15 +21,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     animation-fill-mode: both;
 }
 
-.animated.hinge {
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-}
+    .animated.hinge {
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+    }
 
 @-webkit-keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
         -webkit-transform: translateY(0);
-        transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
     }
 
     40% {
@@ -69,15 +70,23 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @-webkit-keyframes flash {
-    0%, 50%, 100% { opacity: 1; }
+    0%, 50%, 100% {
+        opacity: 1;
+    }
 
-    25%, 75% { opacity: 0; }
+    25%, 75% {
+        opacity: 0;
+    }
 }
 
 @keyframes flash {
-    0%, 50%, 100% { opacity: 1; }
+    0%, 50%, 100% {
+        opacity: 1;
+    }
 
-    25%, 75% { opacity: 0; }
+    25%, 75% {
+        opacity: 0;
+    }
 }
 
 .flash {
@@ -917,15 +926,23 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @-webkit-keyframes fadeIn {
-    0% { opacity: 0; }
+    0% {
+        opacity: 0;
+    }
 
-    100% { opacity: 1; }
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeIn {
-    0% { opacity: 0; }
+    0% {
+        opacity: 0;
+    }
 
-    100% { opacity: 1; }
+    100% {
+        opacity: 1;
+    }
 }
 
 .fadeIn {
@@ -1214,15 +1231,23 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @-webkit-keyframes fadeOut {
-    0% { opacity: 1; }
+    0% {
+        opacity: 1;
+    }
 
-    100% { opacity: 0; }
+    100% {
+        opacity: 0;
+    }
 }
 
 @keyframes fadeOut {
-    0% { opacity: 1; }
+    0% {
+        opacity: 1;
+    }
 
-    100% { opacity: 0; }
+    100% {
+        opacity: 0;
+    }
 }
 
 .fadeOut {
