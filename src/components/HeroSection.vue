@@ -20,14 +20,14 @@ import AppIcon from './AppIcon.vue'
 
     <div class="relative mx-auto w-full max-w-6xl px-5 py-28 text-center sm:px-8">
       <p
-        v-if="profile.available"
+        v-if="profile.status"
         class="mx-auto mb-6 flex w-fit items-center gap-2 rounded-full border border-slate-200 bg-white/70 px-4 py-1.5 text-sm font-medium text-slate-600 shadow-sm dark:border-slate-700 dark:bg-slate-900/70 dark:text-slate-300"
       >
         <span class="relative flex h-2 w-2">
           <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
           <span class="relative inline-flex h-2 w-2 rounded-full bg-emerald-500" />
         </span>
-        Available for freelance work
+        {{ profile.status }}
       </p>
 
       <h1 class="text-4xl font-extrabold tracking-tight sm:text-6xl">

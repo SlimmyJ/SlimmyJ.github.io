@@ -1,12 +1,12 @@
 export const profile = {
   name: 'Simon Van Tittelboom',
-  role: '.NET / C# Developer',
+  role: '.NET Developer & Customer Success',
   tagline:
-    'I build clean, well-tested software — and enjoy the puzzle of turning nothing into something that works.',
+    'Versatile .NET developer with a hands-on, analytical mindset — I pair clean code and API integrations with real customer support, and I love digging into data and the details others miss.',
+  status: 'Open to new opportunities',
   location: 'Ghent, Belgium',
   email: 'simon.van.tittelboom@gmail.com',
   resume: '/Simon-Van-Tittelboom-CV.pdf',
-  available: true,
 }
 
 export const social = [
@@ -16,90 +16,118 @@ export const social = [
 ]
 
 export const about = [
-  'Bitten by code and held hostage by the debugger. After years on the operational side of a construction firm, I retrained as a .NET developer because building something from nothing felt completely natural.',
-  'I care about clean code, test-driven development and continuously learning. I am the people person in a room full of engineers.',
+  "My path into software wasn't a straight line. I started out in the construction world — running a road-signage service, doing lab work on granulates, handling depot logistics and safety admin — before retraining as a .NET developer in 2021.",
+  'Since then I have built .NET MVC and Entity Framework applications, wired up API integrations and optimised queries at Refassist, and today I help customers get the most out of their software as a Customer Success & IT Support agent at Geotracer. I am analytical and meticulous, I love working with data, and I never lose sight of the people on the other side of the screen.',
 ]
 
 export const facts = [
   { label: 'Location', value: 'Ghent, Belgium' },
-  { label: 'Focus', value: 'Backend / .NET' },
-  { label: 'Languages', value: 'Dutch · English' },
-  { label: 'Freelance', value: 'Available' },
+  { label: 'Focus', value: '.NET · Data · Support' },
+  { label: 'Languages', value: 'Dutch · English · French' },
+  { label: 'Interests', value: 'Music · Photography · Gaming' },
 ]
 
 export const services = [
   {
     icon: 'server',
     title: 'Backend Development',
-    text: 'APIs and services in C# / .NET — designed to be readable, testable and maintainable.',
-  },
-  {
-    icon: 'code',
-    title: 'Web Development',
-    text: 'TypeScript, modern JavaScript and ASP.NET MVC / Web API for end-to-end features.',
-  },
-  {
-    icon: 'check',
-    title: 'Clean Code & TDD',
-    text: 'Test-Driven Development and SOLID principles, applied pragmatically rather than dogmatically.',
+    text: 'C# / .NET applications with ASP.NET MVC and Entity Framework — readable, reliable and built to last.',
   },
   {
     icon: 'database',
-    title: 'Data & Databases',
-    text: 'SQL and Entity Framework — modelling data and querying it efficiently.',
+    title: 'Data & Queries',
+    text: 'Query optimisation and data processing — making data fast, clean and easy to make sense of.',
+  },
+  {
+    icon: 'external',
+    title: 'API Integrations',
+    text: 'Connecting platforms through REST and Web APIs so systems talk to each other smoothly.',
+  },
+  {
+    icon: 'users',
+    title: 'Customer Success & Support',
+    text: 'Technical support, onboarding and training that turns software into something people actually enjoy using.',
   },
 ]
 
 export const skills = [
-  'C#', '.NET', 'ASP.NET MVC', 'Web API', 'Entity Framework',
-  'WPF / WinForms', 'TypeScript', 'JavaScript', 'SQL',
-  'TDD', 'SOLID', 'Agile / Scrum', 'HTML & CSS',
+  'C#', '.NET', 'ASP.NET MVC', 'Entity Framework', 'Web API', 'REST',
+  'API integrations', 'Angular', 'JavaScript', 'Node.js', 'WPF',
+  'SQL / MySQL', 'Query optimisation', 'Business analysis', 'Dynamics CRM', 'HTML & CSS',
 ]
 
 export const experience = [
   {
-    title: '.NET Developer',
-    org: 'Building backend services & web apps',
-    period: '2021 — Present',
+    title: 'Customer Success Agent / IT Support',
+    org: 'Geotracer',
+    period: '2025 — Present',
     points: [
-      'Designing and building C# / .NET APIs and services with a focus on clean, testable code.',
-      'Working across the stack with ASP.NET, Entity Framework and TypeScript front-ends.',
-      'Applying TDD, SOLID and Agile practices day to day.',
+      'Run the support ticketing system and provide technical support to customers.',
+      'Onboard and train new and existing customers on the software.',
+      'Build integrations with external software.',
     ],
   },
   {
-    title: 'Administrative & Logistics Officer',
-    org: 'Aclagro nv',
-    period: '2013 — 2020',
+    title: 'Retail Associate',
+    org: 'Tom&Co, Merelbeke',
+    period: '2025',
     points: [
-      'Planning, permits and scheduling for road-signage crews.',
-      'Coordinated transport, maintenance and logistics of site units and equipment.',
-      'Managed the depot and soil-remediation centre; handled sampling and external audits.',
+      'Helped build out and launch a new store; handled customer service and store organisation.',
+    ],
+  },
+  {
+    title: 'Career Break',
+    org: 'Home renovation & family',
+    period: '2023 — 2025',
+    points: [
+      'Time for family and personal development; full renovation of a property for rental.',
+    ],
+  },
+  {
+    title: 'Junior .NET Developer',
+    org: 'Refassist',
+    period: '2021 — 2023',
+    points: [
+      '.NET MVC and Entity Framework development.',
+      'Built APIs and integrations with external platforms.',
+      'Domain analysis and ongoing maintenance of the codebase.',
+      'Query optimisation and data processing.',
+    ],
+  },
+  {
+    title: 'Developer / Data Scientist',
+    org: 'Trensition',
+    period: '2021',
+    points: [
+      'Short internship focused on data analysis and .NET development.',
+    ],
+  },
+  {
+    title: 'Various roles',
+    org: 'Aclagro NV',
+    period: '2012 — 2019',
+    points: [
+      'Signage service lead: drawing up signage plans, purchasing and planning.',
+      'Administrative clerk: depot management, customer contact and safety administration.',
+      'Granulate lab technician: testing granulates and concrete pre-studies.',
     ],
   },
 ]
 
 export const education = [
   {
-    title: '.NET / C# Developer',
-    org: 'VDAB · Multimedi · Obelisk',
-    period: '2020 — 2021',
+    title: '.NET C# Developer',
+    org: 'Multimedi · VDAB Competentiecentrum',
+    period: '2021',
     points: [
-      'OOP, Test-Driven Development, SOLID, Scrum.',
-      'C#, .NET, ASP.NET MVC, Entity Framework, Web API, WPF.',
+      'C#, .NET, ASP.NET MVC, Entity Framework, Web API and WPF.',
       'SQL, JavaScript, HTML & CSS.',
     ],
   },
   {
-    title: 'Bachelor of Psychology',
-    org: 'Universiteit Gent',
-    period: '2010 — 2014',
-    points: [],
-  },
-  {
     title: 'Secondary — Economics & Modern Languages',
-    org: 'OLV College Zottegem',
-    period: '2005 — 2010',
+    org: 'Onze-Lieve-Vrouwcollege Zottegem',
+    period: '2009',
     points: [],
   },
 ]
