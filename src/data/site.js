@@ -63,7 +63,7 @@ export const experience = [
     period: '2025 — Present',
     points: [
       'Run the support ticketing system and provide technical support to customers.',
-      'Onboard and train new and existing customers on the software.',
+      'Onboard and train new or existing customers on the software.',
       'Build integrations with external software.',
     ],
   },
